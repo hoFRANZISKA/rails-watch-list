@@ -1,0 +1,7 @@
+<div class="container">
+  <ul>
+    <li> <%= @list.name%> </li>
+  </ul>
+  <%= @list.bookmarks%>
+<%= link_to 'Add add bookmark', new_list_bookmark_path(@list) %>
+</div>
